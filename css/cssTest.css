@@ -1,0 +1,144 @@
+html {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: url(../images/mobileBG.jpg);
+    overflow:visible;
+    height: 780px;
+    width: 480px;
+font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: aliceblue;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.header {
+    grid-column: 1/span 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr;
+
+    
+}
+
+.nav{
+    font-size: 2vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav a{
+    font-size: 2vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.nav a:hover{
+    font-size: 2vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aquamarine;
+    text-decoration: none;
+
+}
+    .button{
+        background: rgba(244, 198, 43, 0.85); 
+        scale:1.5;
+        border-radius: 6px;
+        color: #f7f7f7;
+    }
+
+.logo{
+     grid-column: 2/ span 1;
+    grid-row: 2/2;
+    height: auto;
+    width: 80%;
+}
+    
+
+
+.welcome {
+    grid-column: 2/ span 2;
+    grid-row: 2/2;
+    text-align-last: center;
+    font-size: 3vw;
+}
+
+.countdown{
+    font-size: 3vw;
+    grid-row: 2/2;
+}
+
+.mid_section{
+    
+    grid-column: 1/span 3;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.form {font-size: 1em;
+    grid-column: 3/7;
+    grid-row: 2/3;
+    background: rgba(252, 255, 252, 0.05);
+    border-radius:10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align-last: center;
+    padding: 10px;
+    height: 100%;
+    width: 70%;
+}
+
+.fun {font-size: 2.5vw;
+    grid-column: 3/ 7 ;
+    grid-row: 1/2;
+    text-align-last: center;
+      background: rgba(252, 255, 252, 0.05);
+    border-radius:10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.today {font-size: 3vw;
+    grid-column: 4/6;
+    grid-row: 3/4;
+    text-align-last: center;
+}
+
+.gif {
+     grid-column: 4/4;
+    grid-row: 1/2;
+    height: auto;
+    width: 100%;
+}
+
+.footer_content {
+    font-size: 3vw;
+    grid-column: span 3;
+    text-align: center;
+    background: rgba(252, 255, 252, 0.05);
+    border-radius:10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+

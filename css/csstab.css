@@ -1,0 +1,116 @@
+
+    body {
+    
+        background-image: url(/images/mobileBG.png);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+font-family: "Hammersmith One", sans-serif;
+  font-weight: 1vw;
+  font-style: normal;
+    background-attachment: fixed;
+
+}
+    
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.container div{
+    border: 1px solid #fff;
+}
+
+.header {
+    grid-column: 1/span 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr;
+
+    
+}
+
+.nav{
+    font-size: 3vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aliceblue;
+}
+
+.nav a{
+    font-size: 3vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav a:hover{
+    font-size: 3vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.logo{
+     grid-column: 1/ span 1;
+    grid-row: 2/2;
+    height:auto;
+    width: 90%
+}
+
+.welcome {
+    grid-column: 2/ span 2;
+    grid-row: 2/2;
+    text-align-last: center;
+    font-size: 3.5vw;
+}
+
+.countdown{
+    font-size: 2.5vw;
+    grid-row: 2/2;
+}
+  .button{
+        background: rgba(244, 198, 43, 0.85); 
+        scale:1.5;
+        border-radius: 6px;
+        color: #f7f7f7;
+    }
+
+.mid_section{
+    grid-column: 1/span 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.form {font-size: 1em;
+    grid-column: 1/5;
+    grid-row: 2/2;
+    background: rgba(252, 255, 252, 0.05);
+    border-radius:10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align-last: center;
+        
+}
+.fun {font-size: 3.5vw;
+    grid-column:2 /span 2 ;
+    text-align-last: center;
+}
+
+.today {font-size: 3.5vw;
+    grid-column: 4/4;
+    grid-row: 1/2;
+    align-items: center;
+}
+
+.footer_content {
+    grid-column: span 3;
+    text-align: center;
+}

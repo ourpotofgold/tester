@@ -1,0 +1,150 @@
+html{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+
+    body {
+    
+background-image: url(../images/GameUIbgTab.jpg);
+overflow:visible;
+width: 80%;
+        height: 80%;
+font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: aliceblue;
+    background-attachment: fixed;
+        background-size: cover;
+    
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.header {
+    grid-column: 1/span 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 3fr;
+    padding: 50px;
+
+    
+}
+
+.nav{
+    font-size: 2vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aliceblue;
+    padding-right: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav a{
+    font-size: 2vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.nav a:hover{
+    font-size: 2vw;
+    grid-column: span 4;
+    text-align-last: center;
+    word-spacing: 20px;
+    color: aquamarine;
+    text-decoration: none;
+
+}
+.button{
+        background: rgba(244, 198, 43, 0.85); 
+        scale:1.5;
+        border-radius: 6px;
+        color: #f7f7f7;
+    }
+.logo{
+     grid-column: 1/ span 1;
+    grid-row: 2/2;
+   height: auto;
+    width: 80%;
+}
+
+.welcome {
+    grid-column: 2/ span 2;
+    grid-row: 2/2;
+    text-align-last: center;
+    font-size: 1.9vw;
+}
+
+.container .mid_section{
+   grid-column: 2/3;
+}
+
+.question_row .game_answers_a {
+     background: rgba(200, 167, 56, 0.35);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}.question_row .game_answers_b {
+     background: rgba(200, 167, 56, 0.35);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}.question_row .game_answers_c {
+     background: rgba(200, 167, 56, 0.35);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}.question_row .game_answers_d {
+     background: rgba(200, 167, 56, 0.35);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    
+}
+
+.mid_section{
+    
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    grid-template-rows:1fr 1fr;
+    text-align-last: center;
+    width: 400px;
+    height: 400px;
+     background: rgba(200, 167, 56, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        scale:1.2;
+        border-radius: 10px;
+        color: #f7f7f7;
+    
+}
+.question_row {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr;
+    grid-column: 1 /3;
+    grid-row-gap: 10px;
+}
+.score {
+    grid-column: 1 /2;
+    text-align-last: center;
+    
+}
+
+.cash_count {
+    text-align-last: center;
+    
+}
+
+
+
+
+.footer_content {
+    grid-column: 1 / span 3;
+    text-align-last: center;
+    
+}
